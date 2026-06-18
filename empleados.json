@@ -1,0 +1,32 @@
+[
+  {
+    "legajo": 1001,
+    "nombre": "Juan Perez",
+    "area": "Desarrollo",
+    "dias_disponibles": 15
+  },
+  {
+    "legajo": 1002,
+    "nombre": "Maria Gomez",
+    "area": "QA",
+    "dias_disponibles": 10
+  },
+  {
+    "legajo": 1003,
+    "nombre": "Pedro Fernandez",
+    "area": "DevOps",
+    "dias_disponibles": 0
+  },
+  {
+    "legajo": 1004,
+    "nombre": "Ana Lopez",
+    "area": "RRHH",
+    "dias_disponibles": 20
+  },
+  {
+    "legajo": 1005,
+    "nombre": "Carlos Ruiz",
+    "area": "Soporte",
+    "dias_disponibles": 5
+  }
+]

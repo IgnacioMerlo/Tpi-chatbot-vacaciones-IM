@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "legajo": 1002,
+        "nombre": "Maria Gomez",
+        "dias_solicitados": 5,
+        "fecha": "2026-06-18 17:04:34.916743",
+        "estado": "APROBADA"
+    }
+]

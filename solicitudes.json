@@ -1,9 +1,11 @@
 [
-    {
-        "legajo": 1002,
-        "nombre": "Maria Gomez",
-        "dias_solicitados": 5,
-        "fecha": "2026-06-18 17:04:34.916743",
-        "estado": "APROBADA"
-    }
+  {
+    "id_solicitud": "SOL-0001",
+    "legajo": 1001,
+    "nombre": "Juan Pérez",
+    "dias_solicitados": 5,
+    "fecha_solicitud": "2026-06-19",
+    "resultado": "APROBADO",
+    "requiere_rrhh": "No"
+  }
 ]

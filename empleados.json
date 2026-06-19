@@ -1,32 +1,37 @@
 [
   {
     "legajo": 1001,
-    "nombre": "Juan Perez",
+    "nombre": "Juan Pérez",
     "area": "Desarrollo",
-    "dias_disponibles": 15
+    "dias_disponibles": 10,
+    "estado": "Activo"
   },
   {
     "legajo": 1002,
-    "nombre": "Maria Gomez",
+    "nombre": "María Gómez",
     "area": "QA",
-    "dias_disponibles": 10
+    "dias_disponibles": 10,
+    "estado": "Activo"
   },
   {
     "legajo": 1003,
-    "nombre": "Pedro Fernandez",
+    "nombre": "Pedro Fernández",
     "area": "DevOps",
-    "dias_disponibles": 0
+    "dias_disponibles": 0,
+    "estado": "Activo"
   },
   {
     "legajo": 1004,
-    "nombre": "Ana Lopez",
+    "nombre": "Ana López",
     "area": "RRHH",
-    "dias_disponibles": 20
+    "dias_disponibles": 20,
+    "estado": "Activo"
   },
   {
     "legajo": 1005,
     "nombre": "Carlos Ruiz",
     "area": "Soporte",
-    "dias_disponibles": 5
+    "dias_disponibles": 5,
+    "estado": "Activo"
   }
 ]

@@ -26,31 +26,30 @@ MAX_INT_DIAS   = 5   # intentos máximos para días inválidos    (robustez 9.3)
 # ACCESO A LA BASE DE DATOS (JSON)
 # ══════════════════════════════════════════════════════════════════════════════
 
-def cargar_empleados() -> list:
+def cargar_empleados():
     with open(EMPLEADOS_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def guardar_empleados(data: list) -> None:
+def guardar_empleados(data):
     with open(EMPLEADOS_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def cargar_solicitudes() -> list:
+def cargar_solicitudes():
     with open(SOLICITUDES_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def guardar_solicitudes(data: list) -> None:
+def guardar_solicitudes(data):
     with open(SOLICITUDES_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def obtener_empleado(legajo: int) -> dict | None:
+def obtener_empleado(legajo: int):
     """Busca un empleado por legajo. Retorna dict o None."""
     for emp in cargar_empleados():
         if emp["legajo"] == legajo:
             return emp
     return None
 
-def registrar_solicitud(legajo: int, nombre: str, dias: int,
-                        resultado: str, requiere_rrhh: bool) -> str:
+def registrar_solicitud(legajo, nombre, dias, resultado, requiere_rrhh):
     """
     Registra la solicitud en solicitudes.json y
     descuenta los días del empleado en empleados.json.
@@ -87,10 +86,10 @@ def registrar_solicitud(legajo: int, nombre: str, dias: int,
 # ══════════════════════════════════════════════════════════════════════════════
 
 def sep():
-    print("\n" + "─" * 52)
+    print("\n" + "-" * 52)
 
-def bot(msg: str):
-    print(f"\n🤖  {msg}")
+def bot(msg):
+    print("\n[BOT]  " + msg)
 
 def encabezado():
     sep()
@@ -114,7 +113,7 @@ def encabezado():
 # MÁQUINA DE ESTADOS — FLUJO PRINCIPAL
 # ══════════════════════════════════════════════════════════════════════════════
 
-def correr_flujo() -> None:
+def correr_flujo():
     """
     Ejecuta el flujo completo del chatbot siguiendo el BPMN TO-BE:
 
@@ -315,5 +314,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

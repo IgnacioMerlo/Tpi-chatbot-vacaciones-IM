@@ -5,7 +5,6 @@ Repositorio: https://github.com/IgnacioMerlo/Tpi-chatbot-vacaciones-IM
 
 Base de datos : empleados.json + solicitudes.json
 Ejecutar      : python chatbot.py
-No requiere dependencias externas (solo Python 3.x)
 """
 
 import json

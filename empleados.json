@@ -3,7 +3,7 @@
     "legajo": 1001,
     "nombre": "Juan Pérez",
     "area": "Desarrollo",
-    "dias_disponibles": 10,
+    "dias_disponibles": 3,
     "estado": "Activo"
   },
   {
@@ -24,7 +24,7 @@
     "legajo": 1004,
     "nombre": "Ana López",
     "area": "RRHH",
-    "dias_disponibles": 20,
+    "dias_disponibles": 13,
     "estado": "Activo"
   },
   {

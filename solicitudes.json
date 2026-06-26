@@ -7,5 +7,23 @@
     "fecha_solicitud": "2026-06-19",
     "resultado": "APROBADO",
     "requiere_rrhh": "No"
+  },
+  {
+    "id_solicitud": "SOL-0002",
+    "legajo": 1001,
+    "nombre": "Juan Pérez",
+    "dias_solicitados": 7,
+    "fecha_solicitud": "2026-06-25",
+    "resultado": "APROBADO",
+    "requiere_rrhh": "No"
+  },
+  {
+    "id_solicitud": "SOL-0003",
+    "legajo": 1004,
+    "nombre": "Ana López",
+    "dias_solicitados": 7,
+    "fecha_solicitud": "2026-06-25",
+    "resultado": "APROBADO",
+    "requiere_rrhh": "No"
   }
 ]
